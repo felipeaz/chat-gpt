@@ -1,5 +1,5 @@
 # chat-gpt
-OpenAI API Go Library by sashabaranov
+Exploring OpenAI API Go Library by sashabaranov
 
 
 ## Running
