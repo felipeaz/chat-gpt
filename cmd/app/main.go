@@ -21,7 +21,7 @@ func main() {
 			Messages: []openai.ChatCompletionMessage{
 				{
 					Role:    openai.ChatMessageRoleUser,
-					Content: "Hello!",
+					Content: "Hello! This is an API integration made in GoLang",
 				},
 			},
 		},
@@ -31,5 +31,5 @@ func main() {
 		return
 	}
 
-	log.Println(resp)
+	log.Println(resp.Choices[0].Message.Content)
 }
